@@ -22,6 +22,7 @@ dependencies {
     implementation ("ch.qos.logback:logback-classic:1.2.10")
 
     testImplementation(kotlin("test"))
+    testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
 }
 
 tasks.test {
